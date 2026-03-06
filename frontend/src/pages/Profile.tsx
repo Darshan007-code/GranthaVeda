@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { User, Mail, BookOpen, Clock, CheckCircle, Flame, Shield, Trash2, LayoutDashboard, Settings } from 'lucide-react';
+import { User, Mail, BookOpen, Flame, Trash2, Settings } from 'lucide-react';
 import axios from 'axios';
 
 const Profile: React.FC = () => {

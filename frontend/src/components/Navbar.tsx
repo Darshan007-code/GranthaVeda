@@ -5,7 +5,6 @@ import { Link, useNavigate } from 'react-router-dom';
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [currentUser, setCurrentUser] = useState<any>(null);
-  const navigate = useNavigate();
 
   useEffect(() => {
     document.documentElement.classList.add('dark');

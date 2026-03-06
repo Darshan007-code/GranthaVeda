@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, ArrowRight, Loader2, Filter, Bookmark, Flame } from 'lucide-react';
+import { Search, Loader2, Filter, Bookmark, Flame } from 'lucide-react';
 import { useSearchParams } from 'react-router-dom';
 import { getTrendingBooks, searchBooks } from '../services/api';
 import BookCard from '../components/BookCard';
@@ -8,8 +8,11 @@ import BookCard from '../components/BookCard';
 // Swiper imports
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+// @ts-ignore
 import 'swiper/css';
+// @ts-ignore
 import 'swiper/css/navigation';
+// @ts-ignore
 import 'swiper/css/pagination';
 
 const Home: React.FC = () => {

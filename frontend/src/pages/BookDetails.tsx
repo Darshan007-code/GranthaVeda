@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Star, Clock, BookOpen, ChevronLeft, ShoppingCart, Share2, Heart, Loader2 } from 'lucide-react';
+import { Star, Clock, BookOpen, ChevronLeft, Share2, Heart, Loader2 } from 'lucide-react';
 import { getBookDetails } from '../services/api';
 
 const BookDetails: React.FC = () => {

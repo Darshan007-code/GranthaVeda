@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { Users, Shield, Activity, Trash2, Search, Flame, LogOut } from 'lucide-react';
+import { Shield, Activity, Trash2, Search, Flame, LogOut } from 'lucide-react';
 import axios from 'axios';
 
 const AdminDashboard: React.FC = () => {
