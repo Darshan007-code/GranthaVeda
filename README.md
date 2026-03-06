@@ -4,8 +4,13 @@
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github-pages&logoColor=white)](https://darshan007-code.github.io/GranthaVeda/)
 
 **GranthaVeda** is a premium, full-stack book discovery platform inspired by the rich heritage of **Indian Sanskriti**. Designed for true seekers of knowledge, it combines a modern "Royal Sanskriti" aesthetic with powerful search capabilities across millions of global titles.
+
+---
+
+### 🌐 [Live Demo: Explore the Vault](https://darshan007-code.github.io/GranthaVeda/)
 
 ---
 
