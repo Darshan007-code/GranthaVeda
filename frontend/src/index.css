@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-saffron: #f97316;
+  --color-gold: #fbbf24;
+  --color-bg-dark: #0c0a09;
+}
+
+@layer base {
+  :root {
+    /* Forcing Dark Mode Colors as Default */
+    --bg-page: #0c0a09;
+    --bg-card: #1c1917;
+    --text-primary: #f8fafc;
+    --text-secondary: #a8a29e;
+    --border-subtle: #292524;
+    --shadow-soft: 0 20px 40px -15px rgba(0,0,0,0.5);
+    
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-[var(--bg-page)] text-[var(--text-primary)];
+  }
+}
+
+@layer components {
+  .premium-card {
+    @apply bg-[var(--bg-card)] rounded-[3rem] p-10 border border-[var(--border-subtle)] shadow-[var(--shadow-soft)] hover:shadow-orange-500/10 hover:-translate-y-2 transition-all duration-500;
+  }
+
+  .nav-glass {
+    @apply fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b border-stone-800;
+    background-color: rgba(12, 10, 9, 0.8);
+    backdrop-filter: blur(20px);
+  }
+}
+
+/* Swiper Elegant Styles (Permanent Dark) */
+.swiper-button-next, .swiper-button-prev {
+  @apply !w-14 !h-14 bg-stone-800 text-saffron shadow-xl rounded-full border border-stone-700 transition-transform active:scale-90;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-stone-600;
+}
+
+.swiper-pagination-bullet-active {
+  @apply !bg-saffron !w-8 !rounded-full;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0a09;
+}
+::-webkit-scrollbar-thumb {
+  background: #292524;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f97316;
+}
