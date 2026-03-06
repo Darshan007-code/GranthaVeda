@@ -89,7 +89,6 @@ This project is part of the GranthaVeda initiative to spread universal wisdom.
 ## 👨‍💻 Developed By
 **Darshan Patil**
 - [GitHub Profile](https://github.com/Darshan007-code)
-- [Portfolio](https://github.com/Darshan007-code)
 
 ---
 *"Knowledge is the only wealth that increases when shared."* 🕉️
