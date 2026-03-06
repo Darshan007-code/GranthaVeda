@@ -14,7 +14,7 @@ import AdminDashboard from './pages/AdminDashboard';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/GranthaVeda">
       <div className="flex flex-col min-h-screen bg-stone-50 dark:bg-stone-950 transition-colors duration-300 font-sans">
         <Navbar />
         <main className="flex-grow">
